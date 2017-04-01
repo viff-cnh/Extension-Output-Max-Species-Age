@@ -61,7 +61,7 @@ namespace Landis.Extension.Output.MaxSpeciesAge
             Timestep = parameters.Timestep;
             mapNameTemplate = parameters.MapNames;
             selectedSpecies = parameters.SelectedSpecies;
-
+            MetadataHandler.InitializeMetadata(mapNameTemplate, selectedSpecies);
         }
 
         //---------------------------------------------------------------------
