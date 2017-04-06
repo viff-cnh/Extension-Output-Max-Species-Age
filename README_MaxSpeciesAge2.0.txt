@@ -4,20 +4,27 @@ Project Component:	Extension-Output-Maximum-Spp-Age
 Component Deposition:	https://github.com/LANDIS-II-Foundation/Extension-Output-Maximum-Spp-Age
 Author:			LANDIS-II Foundation
 Origin Date:		26 Mar 2017
-Final Date:		26 Mar 2017
+Final Date:		06 Apr 2017
 
 
-Welcome to the source code repository for Extension-Output-Maximum-Spp-Age, a LANDIS-II extension. 
+
+Welcome to the source code repository for Extension-Output-Maximum-Spp-Age, a LANDIS-II output extension.
+This output extension produces maps of the maximum cohort age at each active site on the landscape.  
+There are two types of maps: 
+(1) Maps with the maximum age for all the cohorts at each site. 
+(2) Maps with the maximum age for all the cohorts of a particular species at each site. 
+ 
+
+
 This README file provides the following info:
-
 	1) The basic relationship between 'the science' (various biological, geological, 
 geochemical,climatological, ecological, spatial, and landscape ecological mechanisms) 
 and 'the model' (LANDIS-II);
 
 	2) The basic process for modifying and subsequently compiling the source code 
-(written in C#) into a new, <name-of-extension>.dll library.
+(written in C#) into a new, <name-of-your-extension-of-interest>.dll library.
 
-	3) The basic process for testing a new <name-of-extension>.dll library.
+	3) The basic process for testing a new, <name-of-your-extension-of-interest>.dll library.
 
 
 ##########################
@@ -160,13 +167,6 @@ Solution 'base harvest' (1 project)
 ...src\.vs\
 ...src\bin\		
 ...src\obj\
-
-
-	d. Save all files as a solution (.sln) in the LOCAL repo before performing the 
-	   (re)build 
-	d1. from the pull down menus: File ==> Save All
-	d2. Save as
-C:\Users\...\Extension-Base-Harvest\src\base-harvest.sln
 
 
 ===== STEP3. (Re)build the project ==========================================================
