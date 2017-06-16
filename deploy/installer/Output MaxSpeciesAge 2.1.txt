@@ -1,6 +1,6 @@
 LandisData   Extension
 
-Name         "internal-to-LANDISII Output Max Species Age"
+Name         "Output Max Species Age"
 Version      2.1
 Type         output
 Assembly     Landis.Extension.Output.MaxSpeciesAge
