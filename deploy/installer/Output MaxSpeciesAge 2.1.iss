@@ -25,13 +25,10 @@ Source: ..\..\src\bin\debug\Landis.Extension.Output.MaxSpeciesAge.dll; DestDir: 
 
 
 ; Complete example for testing the extension
-Source: ..\examples\*.txt; DestDir: {#AppDir}\examples\Output Max Spp Age
-Source: ..\examples\*.gis; DestDir: {#AppDir}\examples\Output Max Spp Age
-Source: ..\examples\*.bat; DestDir: {#AppDir}\examples\Output Max Spp Age
+Source: ..\examples\*.txt; DestDir: {#AppDir}\examples\Output Max Spp Age; Flags: replacesameversion
+Source: ..\examples\*.gis; DestDir: {#AppDir}\examples\Output Max Spp Age; Flags: replacesameversion
+Source: ..\examples\*.bat; DestDir: {#AppDir}\examples\Output Max Spp Age; Flags: replacesameversion
 
-
-; User Guides are no longer shipped with installer
-;Source: docs\LANDIS-II Output Max Species Age v2.0 User Guide.pdf; DestDir: {#AppDir}\docs
 
 
 ; LANDIS-II identifies the extension with the info in this .txt file
