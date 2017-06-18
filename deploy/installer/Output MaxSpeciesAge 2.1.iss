@@ -1,6 +1,6 @@
 #define PackageName      "Output Max Species Age"
 #define PackageNameLong  "Output Max Species Age"
-#define Version          "2.0.2"
+#define Version          "2.1"
 #define ReleaseType      "official"
 #define ReleaseNumber    ""
 #define CoreVersion      "6.0"
@@ -25,18 +25,15 @@ Source: ..\..\src\bin\debug\Landis.Extension.Output.MaxSpeciesAge.dll; DestDir: 
 
 
 ; Complete example for testing the extension
-Source: ..\examples\*.txt; DestDir: {#AppDir}\examples\Output Max Spp Age
-Source: ..\examples\*.gis; DestDir: {#AppDir}\examples\Output Max Spp Age
-Source: ..\examples\*.bat; DestDir: {#AppDir}\examples\Output Max Spp Age
+Source: ..\examples\*.txt; DestDir: {#AppDir}\examples\Output Max Spp Age; Flags: replacesameversion
+Source: ..\examples\*.gis; DestDir: {#AppDir}\examples\Output Max Spp Age; Flags: replacesameversion
+Source: ..\examples\*.bat; DestDir: {#AppDir}\examples\Output Max Spp Age; Flags: replacesameversion
 
-
-; User Guides are no longer shipped with installer
-;Source: docs\LANDIS-II Output Max Species Age v2.0 User Guide.pdf; DestDir: {#AppDir}\docs
 
 
 ; LANDIS-II identifies the extension with the info in this .txt file
 ; NB. New releases must modify the name of this file and the info in it
-#define InfoTxt "Output MaxSppAge 2.0.txt"
+#define InfoTxt "Output MaxSpeciesAge 2.1.txt"
 Source: {#InfoTxt}; DestDir: {#LandisPlugInDir}
 
 
